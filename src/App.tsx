@@ -1,4 +1,4 @@
-import React, { useReducer, useContext } from 'react';
+import React, { useReducer } from 'react';
 import './App.css';
 import MyHeader from './components/MyHeader';
 import MyInput from './components/MyInput';

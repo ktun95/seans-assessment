@@ -15,8 +15,8 @@ const Removable = ({ item, ...props }: RemovableProps) => {
   }
 
   return ( 
-    <Paper>
-        <Typography display="inline">{item.data}</Typography>
+    <Paper sx={{display: "inline-flex", justifyContent: "space-evenly", alignItems: "center"}}>
+        <Typography display="inline" sx={{flexGrow: "1"}}>{item.data}</Typography>
         <Button onClick={() => handleRemove(item)}> X </Button>
     </Paper>
   )
